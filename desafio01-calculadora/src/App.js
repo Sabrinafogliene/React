@@ -74,12 +74,12 @@ const App = () => {
       const first = Number(firstNumber);
 
       if (firstNumber === '0') {
-      // Se não houver primeiro número, apenas divide o atual por 100 (ex: 50% vira 0.5)
+     
       setCurrentNumber(String(current / 100));
       } else {
-      // Se houver uma operação em curso (+, -, *, /)
+      
         let result;
-        const percentValue = (first * current) / 100; // O valor que representa a %
+        const percentValue = (first * current) / 100; 
 
         switch (operation) {
           case '+':
@@ -89,7 +89,7 @@ const App = () => {
             setCurrentNumber(String(parseFloat((first - percentValue).toFixed(10))));
             break;
           case '*':
-            setCurrentNumber(String(parseFloat((percentValue).toFixed(10)))); // Ex: 200 * 10% = 20
+            setCurrentNumber(String(parseFloat((percentValue).toFixed(10)))); 
             break;
           case '÷':
             setCurrentNumber(String(parseFloat((first / (current / 100)).toFixed(10))));
@@ -120,15 +120,15 @@ const App = () => {
 
   const handleReverseSign = () => {
     setCurrentNumber(prev => {
-    // Se for zero, não faz nada
+    
       if (prev === '0') return '0';
     
-    // Se já começar com "-", remove o sinal (torna positivo)
+    
       if (prev.startsWith('-')) {
         return prev.substring(1);
       }
     
-    // Caso contrário, adiciona o sinal de "-" na frente
+    
       return `-${prev}`;
     });
   };
