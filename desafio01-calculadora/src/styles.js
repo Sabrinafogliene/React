@@ -3,8 +3,9 @@ import styled from 'styled-components';
 export const Container = styled.div`
     width: 100%;
     height: 100vh;
-    background-color: #CACACA;
+    background-color: #fce7faff;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 `
@@ -25,4 +26,12 @@ export const Column = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
+`
+export const Title = styled.h1`
+    color: #ef00dbff;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    margin-bottom: 10px;
 `
