@@ -30,7 +30,8 @@ export default defineConfig([
     rules: {
       // React specific rules
       "react/react-in-jsx-scope": "off",
-      "prettier/prettier": "error",
+      "no-unused-vars": "warn"
+      
     },
     settings: {
       react: {
