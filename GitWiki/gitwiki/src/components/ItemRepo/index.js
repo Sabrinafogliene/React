@@ -1,11 +1,11 @@
 import React from 'react'
 import { ItemContainer } from './styles'
-function ItemRepo() {
+function ItemRepo({repo}) {
   return (
     <ItemContainer>
-        <h3>Repositório</h3>
-        <p>Descrição do repositório</p>
-        <a href="#" >Ver Repositório</a><br />
+        <h3>{repo.name}</h3>
+        <p>{repo.full_name}</p>
+        <a href={repo.html_url} target="_blank" rel="noopener noreferrer">Ver Repositório</a><br />
         <a href="#" className="remover">Remover</a>
         <hr />
     </ItemContainer>
