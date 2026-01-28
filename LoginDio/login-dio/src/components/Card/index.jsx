@@ -12,10 +12,10 @@ import {
 const Card = () => {
   return (
     <CardContainer>
-        <ImageBackground />
+        <ImageBackground src="https://reacttraining.com/images/blog/default.png" />
         <Content>
             <UserInfo>
-                <UserPicture />
+                <UserPicture src="https://avatars.githubusercontent.com/u/162124050?v=4" />
                 <div>
                     <h4>Sabrina Castilho</h4>
                     <p>Há 8 minutos</p>
