@@ -17,22 +17,21 @@ Projeto desenvolvido como parte do curso **Formação Developers React da DIO**.
 O projeto reproduz a experiência completa de navegação em 4 páginas principais:
 
 - ### **Home:** *Página institucional com a proposta da plataforma.*
+---
+![Home Page](./home.png)
 
-  ![Home Page](./home.png)
-   
 - ### **Login:** Validação de credenciais consumindo dados de uma API simulada.
-
-  ![Login Page](./login.png)
-
+---
+![Login Page](./login.png)
    
 - ### **Cadastro:** Registro de novos usuários, incluindo aceite de termos e políticas de privacidade.
-   
-  ![Register Page](./cadastro.png)
+---   
+![Register Page](./cadastro.png)
 
-   
 - ### **Feed:** Interface logada com listagem de projetos e ranking de usuários.
-   
-   ![Feed Page](./feed.png)
+---   
+![Feed Page](./feed.png)
+
 
 
 ## 🛠️ Tecnologias e Bibliotecas
