@@ -4,10 +4,11 @@
 ![React](https://img.shields.io/badge/react-%2320232d.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Styled Components](https://img.shields.io/badge/styled--components-%23db7093.svg?style=for-the-badge&logo=styled-components&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white)
+![Axios](https://img.shields.io/badge/axios-%235A29E4.svg?style=for-the-badge&logo=axios&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Yup](https://img.shields.io/badge/yup-%23F28E2B.svg?style=for-the-badge&logo=validator&logoColor=white)
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sabrina-castilho/)
-
-
-![Screenshot do Clone do site da DIO](./screenshot.png)
 
 ## 📖 Sobre o Projeto
 Projeto desenvolvido como parte do curso **Formação Developers React da DIO**. O objetivo principal é a replicação da interface e das funcionalidades de fluxo de usuário da plataforma, focando em boas práticas de componentização e gerenciamento de rotas.
@@ -15,10 +16,24 @@ Projeto desenvolvido como parte do curso **Formação Developers React da DIO**.
 ## 🚀 Telas Implementadas
 O projeto reproduz a experiência completa de navegação em 4 páginas principais:
 
-1. **Home:** Página institucional com a proposta da plataforma.
-2. **Login:** Validação de credenciais consumindo dados de uma API simulada.
-3. **Cadastro:** Registro de novos usuários, incluindo aceite de termos e políticas de privacidade.
-4. **Feed:** Interface logada com listagem de projetos e ranking de usuários.
+- ### **Home:** *Página institucional com a proposta da plataforma.*
+
+  ![Home Page](./home.png)
+   
+- ### **Login:** Validação de credenciais consumindo dados de uma API simulada.
+
+  ![Login Page](./login.png)
+
+   
+- ### **Cadastro:** Registro de novos usuários, incluindo aceite de termos e políticas de privacidade.
+   
+  ![Register Page](./cadastro.png)
+
+   
+- ### **Feed:** Interface logada com listagem de projetos e ranking de usuários.
+   
+   ![Feed Page](./feed.png)
+
 
 ## 🛠️ Tecnologias e Bibliotecas
 Para este projeto, foram utilizadas ferramentas modernas do ecossistema JavaScript:
