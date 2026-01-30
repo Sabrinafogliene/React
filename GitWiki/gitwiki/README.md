@@ -31,11 +31,19 @@ O projeto utiliza o ecossistema moderno do React para criar uma interface rápid
    ```bash
    git clone [https://github.com/Sabrinafogliene/React.git](https://github.com/Sabrinafogliene/React.git)
    ```
-2. **Insstale as dependências:**
+2. **Entre na pasta do repositório:**
+   ```bash
+   cd React
+   ```
+3. **Entre na pasta específica desse projeto:**
+   ```bash
+   cd GitWiki/gitwiki
+   ```
+4. **Instale as dependências:**
    ```bash
    npm install
    ```
-3. **Inicie o servidor de desenvolvimento:**
+5. **Inicie o servidor de desenvolvimento:**
    ```bash
    npm start
    ```
