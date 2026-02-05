@@ -8,7 +8,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 
 import { api } from '../../services/api';
-import {Container, ErrorText, Title, Column, CriarText, EsqueciText, Row, SubtitleLogin, TitleLogin, Wrapper } from './styles';
+import {Container, Title, Column, CriarText, EsqueciText, Row, SubtitleLogin, TitleLogin, Wrapper } from './styles';
 
 const schema = yup.object({
     email: yup.string().email('Email inválido').required('Campo obrigatório'),
@@ -22,8 +22,8 @@ const Login = () => {
         mode: 'onChange',
     });
     
-
-    const onSubmit = async formData => {
+    type IFormData = yup.InferType<typeof schema>;
+    const onSubmit = async (formData : IFormData) => {
         try{
             const { data } = await api.get(`users?email=${formData.email}&password=${formData.password}`);
             if(data.length === 1){

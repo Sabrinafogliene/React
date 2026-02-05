@@ -22,8 +22,8 @@ const Register = () => {
         mode: 'onChange',
     });
     
-
-    const onSubmit = async formData => {
+type IFormData = yup.InferType<typeof schema>;
+    const onSubmit = async (formData : IFormData) => {
         try{
             const { data } = await api.get(`users?email=${formData.email}&password=${formData.password}`);
             if(data.length === 1){
